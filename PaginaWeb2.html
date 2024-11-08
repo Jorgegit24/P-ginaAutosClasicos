@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Completa</title>
+   
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Auto - Clasic</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#form">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <center>
+        <h2>Acerca de Nosotros</h2>
+            <p>Venta de Autos clásicos deportivos, exclusivos.</p>
+        </center>
+    </div>
+    <div>
+    <center>
+        <h2>Galería de Imágenes</h2>
+    </center>
+     </div>
+       <section id="gallery" class="gallery">
+       
+        <figure>
+            <a href="#Eleonor"><img src="/img/Eleonor.jpg" alt="Eleonor"></a>
+            <figcaption>Mustang Eleonor</figcaption>
+        </figure>
+        <figure>
+            <a href="#extra"> <img src="./img/Challeger.jpg" alt="Demon"></a>
+            <figcaption>Challeger Demon</figcaption>
+        </figure>
+        <figure>
+            <a href="#extra"><img src="./img/Camaro.jpg" alt="Exorcist"></a>
+             <figcaption>Camaro Exorcist</figcaption>
+        </figure>
+    </section>
+
+   
+    <section id="extra">
+       <center><h2>Información Extra</h2></center>
+        <h3 id="Eleonor">Características</h3>
+       <table>
+            <thead>
+                <tr>
+                    <th>Fabricante</th>
+                    <th>Año</th>
+                    <th>Motor</th>
+                    <th>Sitio Web</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ford</td>
+                    <td>1967 -1973</td>
+                    <td>V8 Cleveland o Cobra Jet 5.8 a 7L</td>
+                    <td>https://www.ford.com/</td>
+                </tr>
+                <tr>
+                    <td>Dodge</td>
+                    <td>1971</td>
+                    <td>V8 Hellcat Demon</td>
+                    <td>https://www.dodge.com/mx/blog/muscle-cars/dodge-challenger-demon-la-historia-del-muscle-car-mas-potente.html</td>
+                </tr>
+                <tr>
+                    <td>Chevrolet</td>
+                    <td>2017</td>
+                    <td>LT4 V8 6.2L</td>
+                    <td>https://es.motor1.com/news/691248/hennessey-camaro-preparacion-final-edition/</td>
+                </tr>
+            </tbody>
+       </table>
+
+        <center><h3>Tabla de Precios</h3></center>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Disponibilidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mustang Eleonor</td>
+                    <td>$ 1 000 000</td>
+                    <td>En stock</td>
+                </tr>
+                <tr>
+                    <td>Challeger Demon</td>
+                    <td>$ 1 500 000</td>
+                    <td>En stock</td>
+                </tr>
+                <tr>
+                    <td>Camaro Exorcist</td>
+                    <td>$ 2 000 000</td>
+                    <td>Agotado</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="category">Categoría:</label>
+            <select id="category" name="category">
+                <option value="general">General</option>
+                <option value="support">Soporte</option>
+                <option value="feedback">Comentarios</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Jorge Pulido.</p>
+    </footer>
+</body>
+</html>
